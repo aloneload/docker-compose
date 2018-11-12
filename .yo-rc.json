@@ -14,6 +14,12 @@
     "jwtSecretKey": "ddeb678263bf513dc76e92b51338059313bb97aa",
     "consoleOptions": [
       "zipkin"
-    ]
+    ],
+    "dockerRepositoryName": "aloneload",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "istio": "no",
+    "istioRoute": false
   }
 }
